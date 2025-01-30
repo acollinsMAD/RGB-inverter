@@ -10,6 +10,8 @@ def inversionFormula(R, G, B):
     G1 = 255 - G
     B1 = 255 - B
     return R1, G1, B1
+#converts the inverted values to a list
+inversion = inversionFormula(R, G, B)
 
-#prints inverted values to console
-print (inversionFormula(R, G, B))
+#prints the inverted values as a list
+print("The inverted values are: ", inversion)
