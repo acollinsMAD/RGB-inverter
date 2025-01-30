@@ -1,0 +1,1 @@
+# Sample project of giving the inverted values of an RGB number
